@@ -1,0 +1,13 @@
+// MIXINS
+// *******
+
+
+
+// This mixin provides a fancier clearfix than using the overflow property!
+@mixin clearfix {
+  &::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}

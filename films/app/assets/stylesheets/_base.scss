@@ -1,0 +1,40 @@
+// BASE STYLES
+
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  box-sizing: inherit;
+  font-family: $source_sans_pro_fontfam;
+  font-size: 20px;
+  line-height: 1.35;
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $oswald_font_fam;
+  // font-weight: 700;
+  line-height: 1.1;
+}
+
+img {
+  max-width: 100%;
+}
+
+figure {
+  margin: 0;
+}
