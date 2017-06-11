@@ -2,6 +2,17 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+// FONT FAMILY VARIABLES
+
+$source_sans_pro_fontfam: 'Source Sans Pro', Helvetica, Arial, sans-serif;
+$oswald_font_fam: 'Oswald', Helvetica, Arial, sans-serif;
+
+// Colour Vairables
+
+$darkred: #990000
+$grey: #999;
+
+
 *,
 *::before,
 *::after {
@@ -10,7 +21,7 @@
 
 html {
   box-sizing: inherit;
-  font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
+  font-family: $source_sans_pro_fontfam;
   font-size: 20px;
   line-height: 1.35;
   height: 100%;
@@ -27,7 +38,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Oswald', Helvetica, Arial, sans-serif;
+  font-family: $oswald_font_fam;
   // font-weight: 700;
   line-height: 1.1;
 }
@@ -80,11 +91,11 @@ article > header {
 .hero-title-container > .hero-title {
   font-size: 3rem;
   margin: 2rem 0 0;
-  color: #990000;
+  color: $darkred;
 }
 
 .hero-title-container > .hero-tagline {
-  color: #999;
+  color: $grey;
   margin: 0.25rem 0;
 }
 
@@ -96,13 +107,13 @@ article > header {
 
 .article-title > h2 {
     font-size: 1.2em;
-    color: #999;
+    color: $grey;
 }
 
 .article-title > h1 {
     font-size: 2rem;
     margin-bottom: 0;
-    color: #990000;
+    color: $darkred;
 }
 
 // This mixin provides a fancier clearfix than using the overflow property!
