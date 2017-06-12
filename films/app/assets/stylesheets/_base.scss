@@ -8,6 +8,8 @@
 }
 
 html {
+  background-image: url("https://i.ytimg.com/vi/Qa0DH2IQ13I/maxresdefault.jpg");
+
   box-sizing: inherit;
   font-family: $source_sans_pro_fontfam;
   font-size: 20px;
@@ -16,7 +18,8 @@ html {
 }
 
 body {
-  margin: 0;
+  width: 90%;
+  margin: auto;
   height: 100%;
 }
 
@@ -38,3 +41,6 @@ img {
 figure {
   margin: 0;
 }
+
+// section { background: $lowopacitygrey;
+//       }

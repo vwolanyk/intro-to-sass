@@ -11,6 +11,7 @@
 .hero-block {
   position: relative;
   @include clearfix;
+  background: $lowopacitygrey;
 }
 
 .hero-logo-container {
@@ -30,10 +31,12 @@
     float: left;
     width: 75%;
 
+
         .hero-title {
           font-size: 3rem;
           margin: 2rem 0 0;
           color: $darkred;
+          
         }
 
         .hero-tagline {

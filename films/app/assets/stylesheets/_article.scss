@@ -4,8 +4,12 @@
 
 
 article {
+
   width: 75%;
   margin: 1rem auto 3rem;
+  padding-bottom: 3rem;
+  // text-shadow: 1px 1px white;
+  color: lightyellow;
 
       header {
        @include clearfix;
@@ -28,5 +32,7 @@ article {
         font-size: 2rem;
         margin-bottom: 0;
         color: $darkred;
+        text-shadow: 3px 3px black;
+
         }
 }
